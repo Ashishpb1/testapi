@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="FSM">
+	<!-- <test name="FSM_Regression_Test" time-out="20000"> -->
+	<test name="AchievementUploadAPI" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.AchievementUpload.AchievementUploadTest" />
+		</classes>
+	</test>
+
+	<test name="AddAdminTagAPI" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.AddAdminTag.AddAdminTagTest" />
+		</classes>
+	</test>
+
+	<test name="AddressMapMyIndiaBillingEntryAPI"
+		  preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.AddressMapMyIndiaBillingEntry.AddressMapMyIndiaBillingEntryTest" />
+		</classes>
+	</test>
+
+	<test name="AddTagAPI" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.AddTag.AddTagTest" />
+		</classes>
+	</test>
+
+	<test name="AdminFetchAPI" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.AdminFetch.AdminFetchTest" />
+		</classes>
+	</test>
+
+	<test name="ApiToGetTagsAPI" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.ApiToGetTags.ApiToGetTagsTest" />
+		</classes>
+	</test>
+
+	<test name="ApplyLeaveAPI" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.ApplyLeave.ApplyLeaveTest" />
+		</classes>
+	</test>
+
+	<test name="ApproveAPI" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.Approve.ApproveTest" />
+		</classes>
+	</test>
+
+	<test name="AssignBeatAPI" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.AssignBeat.AssignBeatTest" />
+		</classes>
+	</test>
+
+	<test name="AssignOrReAssignMHDBeatsAPI" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.AssignOrReAssignMHDBeats.AssignOrReAssignMHDBeatsTest" />
+		</classes>
+	</test>
+
+	<test name="AssignOrUnassignZones" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.AssignOrUnassignZones.AssignOrUnassignZonesTest" />
+		</classes>
+	</test>
+
+	<test name="AttendanceCheckOut" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.AttendanceChcekOut.AttendanceCheckOutTest" />
+		</classes>
+	</test>
+
+	<test name="AttendanceCheckIn" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.AttendanceCheckIn.AttendanceCheckInTest" />
+		</classes>
+	</test>
+
+	<test name="AttendanceStatusCheck" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.AttendanceStatusCheck.AttendanceStatusCheckTest" />
+		</classes>
+	</test>
+
+	<test name="CreateConfigMaster" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.CreateConfigMaster.CreateConfigMasterTest" />
+		</classes>
+	</test>
+
+	<test name="CreateDepartment" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.CreateDepartment.CreateDepartmentTest" />
+		</classes>
+	</test>
+
+	<test name="CreateSubTeam" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.CreateSubTeam.CreateSubTeamTest" />
+		</classes>
+	</test>
+
+	<test name="CreateTag" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.CreateTag.CreateTagTest" />
+		</classes>
+	</test>
+
+	<test name="CreateTeam" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.CreateTeam.CreateTeamTest" />
+		</classes>
+	</test>
+
+	<test name="DeactivateProfile" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.DeactivateProfile.DeactivateProfileTest" />
+		</classes>
+	</test>
+
+	<test name="DeleteConfigMaster" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.DeleteConfigMaster.DeleteConfigMasterTest" />
+		</classes>
+	</test>
+
+	<test name="FacingIssues" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.FacingIssues.FacingIssuesTest" />
+		</classes>
+	</test>
+
+	<test name="FetchActiveAgents" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.FetchActiveAgents.FetchActiveAgentsTest" />
+		</classes>
+	</test>
+
+	<test name="FetchBeatMapping" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.FetchBeatMapping.FetchBeatMappingTest" />
+		</classes>
+	</test>
+
+	<test name="FetchFilters" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.FetchFilter.FetchFiltersTest" />
+		</classes>
+	</test>
+
+	<test name="FetchReason" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.FetchReason.FetchReasonTest" />
+		</classes>
+	</test>
+
+	<test name="FseDetails" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.FseDetails.FseDetailsTest" />
+		</classes>
+	</test>
+
+	<test name="FsePSA" preserve-order="true" enabled="false">
+		<classes>
+			<class name="com.paytm.api.FSMApi.FsePSA.FsePSATest" />
+		</classes>
+	</test>
+
+	<test name="FseSearch" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.FseSearch.FseSearchTest" />
+		</classes>
+	</test>
+
+	<test name="FseZones" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.FseZones.FseZonesTest" />
+		</classes>
+	</test>
+
+	<test name="GateMeetingCreate" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GateMeetingCreate.GateMeetingCreateTest" />
+		</classes>
+	</test>
+
+	<test name="GateMeetingDetails" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GateMeetingDetails.GateMeetingDetailsTest" />
+		</classes>
+	</test>
+
+	<test name="GeoFencing" preserve-order="true" enabled="false">
+		<classes>
+			<class name="com.paytm.api.FSMApi.GeoFencing.GeoFencingTest" />
+		</classes>
+	</test>
+
+	<test name="GetBeatMap" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.GetBeatMap.GetBeatMapTest" />
+		</classes>
+	</test>
+
+	<test name="GetDeptNames" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetDeptNames.GetDeptNamesTest" />
+		</classes>
+	</test>
+
+	<test name="GetFeatureToggles" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetFeatureToggles.GetFeatureTogglesTest" />
+		</classes>
+	</test>
+
+
+	<test name="GetFseZones" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.GetFseZones.GetFseZonesTest" />
+		</classes>
+	</test>
+
+	<test name="GetImmediateHierarchy" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetImmediateHierarchy.GetImmediateHierarchyTest" />
+		</classes>
+	</test>
+
+	<test name="GetLocation" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.GetLocation.GetLocationTest" />
+		</classes>
+	</test>
+
+	<test name="GetMerchant" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.GetMerchant.GetMerchantTest" />
+		</classes>
+	</test>
+
+	<test name="GetMerchantV2" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetMerchantV2.GetMerchantV2Test" />
+		</classes>
+	</test>
+
+	<test name="GetPriorityZone" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetPriorityZone.GetPriorityZoneTest" />
+		</classes>
+	</test>
+
+	<test name="GetSearchZoneAdmin" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetSearchZoneAdmin.GetSearchZoneAdminTest" />
+		</classes>
+	</test>
+
+	<test name="GetTags" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.GetTags.GetTagsTest" />
+		</classes>
+	</test>
+
+	<test name="GetZoneInfoTest" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.GetZoneInfo.GetZoneInfoTest" />
+		</classes>
+	</test>
+
+	<!--// This API is been deprecated
+	<test name="GetZonesAdmin" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetZonesAdmin.GetZonesAdminTest" />
+		</classes>
+	</test>-->
+
+	<test name="GetZonesStats" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.GetZonesStats.GetZonesStatsTest" />
+		</classes>
+	</test>
+
+	<test name="HolidayCalendar" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.HolidayCalendar.HolidayCalendarTest" />
+		</classes>
+	</test>
+
+	<test name="Home" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.Home.HomeTest" />
+		</classes>
+	</test>
+
+	<test name="HomeAuth" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.HomeAuth.HomeAuthTest" />
+		</classes>
+	</test>
+
+	<test name="IssuesList" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.IssuesList.IssuesListTest" />
+		</classes>
+	</test>
+
+	<test name="LeadServiceability" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.LeadServiceability.LeadServiceabilityTest" />
+		</classes>
+	</test>
+
+	<test name="LeaveMgt" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.LeaveMgt.LeaveMgtTest" />
+		</classes>
+	</test>
+
+	<test name="ListInfo" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.ListInfo.ListInfoTest" />
+		</classes>
+	</test>
+
+	<!--//This API is been deprecated
+	<test name="V2GetLocation" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.V2GetLocation.V2GetLocationTest" />
+		</classes>
+	</test>-->
+
+	<test name="ManpowerUpload" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.ManpowerUpload.ManpowerUploadTest" />
+		</classes>
+	</test>
+
+	<test name="MerchantAddress" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.MerchantAddress.MerchantAddressTest" />
+		</classes>
+	</test>
+
+	<test name="MigrateMerchantFromKyb" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.MigrateMerchantFromKyb.MigrateMerchantFromKybTest" />
+		</classes>
+	</test>
+
+	<test name="MyAttendance" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.MyAttendance.MyAttendanceTest" />
+		</classes>
+	</test>
+
+	<test name="MyAttendanceAdmin" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.MyAttendanceAdmin.MyAttendanceTestAdmin" />
+		</classes>
+	</test>
+
+	<test name="MyCalendar" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.MyCalendar.MyCalendarTest" />
+		</classes>
+	</test>
+
+	<test name="pipeline" preserve-order="true" >
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.pipeline.AchievementUploadStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.AdminFetchStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.ApplyLeaveStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.ApproveStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.ApplyLeaveStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.AssignOrReAssignMHDBeatsStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.AttendanceStatusCheckStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.DeactivateProfileStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.Dto" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.FetchActiveAgentsStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.FetchBeatMappingStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.FetchFiltersStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.FetchReasonStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.FseDetailsStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.FsePSAStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.GateMeetingCreateStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.GateMeetingDetailsStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GeoFencingStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetBeatMapStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetDeptNamesStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetFseZonesStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.GetImmediateHierarchyStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetLocationStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetMerchantStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetMerchantV2Step" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetTagsSteps" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetZonesAdminStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.GetZonesStatsStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.HolidayCalendarStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.HomeAuthStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.LeaveMgtStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.ListInfoStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.ManpowerUploadStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.MyAttendanceAdminStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.MyAttendanceCheckInStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.MyAttendanceCheckOutStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.MyAttendanceStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.MyCalendarStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.Pipeline" />
+			<class name="com.paytm.api.FSMApi.pipeline.PreviousTargetsStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.RegularizeStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.SaveLocationStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.SearchMerchantStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.SearchZoneStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.ServiceBeatDetailsStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.TargetFetchStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.TargetUploadStep" />
+			<class name="com.paytm.api.FSMApi.pipeline.TeamSequenceStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.TeamSubteamMappingStep" />
+			<class
+					name="com.paytm.api.FSMApi.pipeline.ZonesMerchantCountStep" />
+
+		</classes>
+	</test>
+
+	<test name="PreviousTargets" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.PreviousTargets.PreviousTargetsTest" />
+		</classes>
+	</test>
+
+	<test name="PriorityZones" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.PriorityZones.PriorityZonesTest" />
+		</classes>
+	</test>
+
+	<test name="QRCompetitiveSave" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.QRCompetitiveSave.QRCompetitiveSaveTest" />
+		</classes>
+	</test>
+
+	<test name="QRData" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.QRData.QRDataTest" />
+		</classes>
+	</test>
+
+	<test name="Regularize" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.Regularize.RegularizeTest" />
+		</classes>
+	</test>
+
+	<test name="RescheduleReasons" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.RescheduleReasons.RescheduleReasonsTest" />
+		</classes>
+	</test>
+
+	<test name="SaveBeatMapping" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.SaveBeatMapping.SaveBeatMappingTest" />
+		</classes>
+	</test>
+
+	<test name="SaveLocation" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.SaveLocation.SaveLocationTest" />
+		</classes>
+	</test>
+
+	<test name="SearchMerchant" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.SearchMerchant.SearchMerchantTest" />
+		</classes>
+	</test>
+
+	<test name="SearchZone" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.SearchZone.SearchZoneTest" />
+		</classes>
+	</test>
+
+	<test name="ServiceBeatDetails" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.ServiceBeatDetails.ServiceBeatDetailsTest" />
+		</classes>
+	</test>
+
+	<test name="TagsForTeam" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.TagsForTeam.TagsForTeamTest" />
+		</classes>
+	</test>
+
+	<test name="TagsForTeamAdmin" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.TagsForTeamAdmin.TagsForTeamAdminTest" />
+		</classes>
+	</test>
+
+	<test name="TargetFetch" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.TargetFetch.TargetFetchTest" />
+		</classes>
+	</test>
+
+	<test name="TargetUpload Test" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.TargetUpload.TargetUploadTest" />
+		</classes>
+	</test>
+
+	<test name="TeamSequence" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.TeamSequence.TeamSequenceTest" />
+		</classes>
+	</test>
+
+	<test name="TeamSubteamMapping" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.TeamSubteamMapping.TeamSubteamMappingTest" />
+		</classes>
+	</test>
+
+	<test name="TicketStatusFromFSMtoFD" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.TicketStatusFromFSMtoFD.TicketStatusFromFSMtoFDTest" />
+		</classes>
+	</test>
+
+	<test name="TrackingDetails" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.TrackingDetails.TrackingDetailsTest" />
+		</classes>
+	</test>
+
+	<test name="UnassignBeat" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.UnassignBeat.UnassignBeatTest" />
+		</classes>
+	</test>
+
+	<test name="UpdateConfigMaster" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.UpdateConfigMaster.UpdateConfigMasterTest" />
+		</classes>
+	</test>
+
+	<test name="UpdateDeeplink" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.UpdateDeeplink.UpdateDeeplinkTest" />
+		</classes>
+	</test>
+
+	<test name="UpdateManpowerUpload" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.UpdateManpowerUpload.UpdateManpowerUploadTest" />
+		</classes>
+	</test>
+
+	<test name="UploadPriorityZonesTest" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.UploadPriorityZonesTest.UploadPriorityZonesTest" />
+		</classes>
+	</test>
+
+	<test name="V2GetFseZones" preserve-order="true" enabled="false">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.V2GetFseZones.V2GetFseZonesTest" />
+		</classes>
+	</test>
+
+	<test name="V3GetFseZones" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.V3GetFseZones.V3GetFseZonesTest" />
+		</classes>
+	</test>
+
+	<test name="ZonesMerchantCount" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.FSMApi.ZonesMerchantCount.ZonesMerchantCountTest" />
+		</classes>
+	</test>
+
+
+	<test name="ZoneUpload" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.ZoneUpload.ZoneUploadTest" />
+		</classes>
+	</test>
+
+	<test name="CloudTelephony" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.CloudTelephony.CloudTelephonyTest" />
+		</classes>
+	</test>
+
+	<test name="ServiceFlowHomePage" preserve-order="true">
+		<classes>
+			<class
+					name="com.paytm.api.ServiceFlowHomePage.ServiceFlowHomePageTest" />
+		</classes>
+	</test>
+
+
+	<test name="UserFlowTests" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.UserFlowTests.LiveLocationUserFlow" />
+		</classes>
+	</test>
+
+	<test name="ReverseGeoCode" preserve-order="true">
+		<classes>
+			<class name="api.ReverseGeoCodeTest.ReverseGeoCode" />
+		</classes>
+	</test>
+
+	<test name="AttendanceStatus" preserve-order="true">
+		<classes>
+			<class name="api.AttendanceStatus.AttendanceStatus" />
+		</classes>
+	</test>
+
+
+	<test name="FseTrackingDetails" preserve-order="true">
+		<classes>
+			<class name="api.FseTrackingDetailsTest.FseTrackingDetails" />
+		</classes>
+	</test>
+
+	<test name="GetBeatTags" preserve-order="true">
+		<classes>
+			<class name="api.GetBeatTagsTest.GetBeatTags" />
+		</classes>
+	</test>
+
+	<test name="IsOtpRequired" preserve-order="true">
+		<classes>
+			<class name="api.IsOtpRequiredTest.IsOtpRequired" />
+		</classes>
+	</test>
+
+	<test name="UpdateMaxZones" preserve-order="true">
+		<classes>
+			<class name="api.UpdateMaxZone.UpdateMaxZones" />
+		</classes>
+	</test>
+	<test name="SixChar" preserve-order="true">
+		<classes>
+			<class name="api.SixChar.SixChar" />
+		</classes>
+	</test>
+
+
+	<test name="fiveChar" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.fiveChar.fiveCharTest" />
+		</classes>
+	</test>
+
+	<test name="SalesBeatCreation" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.SalesBeatCreation.SalesBeatCreation" />
+		</classes>
+	</test>
+
+	<test name="ServiceBeatDetailsTest" preserve-order="true">
+		<classes>
+			<class name="api.ServiceBeatDetailsTest.ServiceBeatDetails" />
+		</classes>
+	</test>
+
+	<test name="MyTeamSixChar" preserve-order="true">
+		<classes>
+			<class name="api.MyTeamSixChar.MyTeamSixChar" />
+		</classes>
+	</test>
+
+
+	<test name="FseAcceptRejectBeat" preserve-order="true">
+		<classes>
+			<class name="api.FseAcceptRejectBeatTest.FseAcceptRejectBeat" />
+		</classes>
+	</test>
+	<test name="ZoneUploadTest" preserve-order="true">
+		<classes>
+			<class name="api.ZoneUpload.ZoneUpload" />
+		</classes>
+	</test>
+
+	<!--<test name="FseZoneList" preserve-order="true">
+		<classes>
+			<class name="api.FseZoneListTest.FseZoneList" />
+			<class name="api.FseZoneListTest.FseZoneList" />
+		</classes>
+	</test>-->
+
+
+	<test name="ExitManagement" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.GetReasonsForLeaving" />
+			<class name="ExitManagement.FetchTLHierarchy" />
+		</classes>
+	</test>
+
+	<test name="Change_status" preserve-order="true">
+
+		<classes>
+			<class name="ExitManagement.Change_status.changestatustorejected" />
+		</classes>
+	</test>
+
+	<test name="TaskList" preserve-order="true">
+
+		<classes>
+			<class name="api.TaskList.TaskList" />
+		</classes>
+	</test>
+	<test name="ServiceSearchMerchant" preserve-order="true">
+		<classes>
+			<class name="api.ServiceSearchMerchantTest.ServiceSearchMerchant" />
+		</classes>
+	</test>
+	<test name="Generate OTP" preserve-order="true">
+		<classes>
+			<class name="api.GenerateOtp.GenerateOtp" />
+		</classes>
+	</test>
+
+
+
+	<test name="serviceBeatsFilter" preserve-order="true">
+		<classes>
+			<class
+					name="api.serviceBeatsFilterTest.serviceBeatsFilter" />
+		</classes>
+	</test>
+
+
+	<test name="ServiceFlowFilters" preserve-order="true">
+		<classes>
+			<class name="api.ServiceFlowFiltersTest.ServiceFlowFilters" />
+		</classes>
+	</test>
+
+	<test name="StartGateMeeting" preserve-order="true">
+		<classes>
+			<class name="api.StartGateMeetingTest.StartGateMeeting" />
+		</classes>
+	</test>
+
+	<test name="GateMeetingMarkAttendance" preserve-order="true">
+		<classes>
+			<class name="api.GateMeetingMarkAttendanceTest.GateMeetingMarkAttendance" />
+		</classes>
+	</test>
+
+	<test name="FeatureToggles" preserve-order="true">
+		<classes>
+			<class name="api.FeatureTogglesTest.FeatureToggles" />
+		</classes>
+	</test>
+
+	<test name="GateMeetingEnd" preserve-order="true">
+		<classes>
+			<class name="api.GateMeetingEndTest.GateMeetingEnd" />
+		</classes>
+	</test>
+
+	<test name="MeetingDetails" preserve-order="true">
+		<classes>
+			<class name="api.MeetingDetailsTest.MeetingDetails" />
+		</classes>
+	</test>
+
+	<test name="MultipartImage" preserve-order="true">
+		<classes>
+			<class name="api.MultipartImageTest.MultipartImage" />
+		</classes>
+	</test>
+
+	<test name="ServiceReporter" preserve-order="true">
+		<classes>
+			<class name="api.ServiceReporteeTest.ServiceReporter" />
+		</classes>
+	</test>
+
+	<test name="GetQRData" preserve-order="true">
+		<classes>
+			<class name="api.GetQRDataTest.GetQRData" />
+		</classes>
+	</test>
+
+	<test name="InternalAdminFeatureTest" preserve-order="true">
+		<classes>
+			<class name="api.InternalAdminFeatureTest.InternalAdminFeature" />
+		</classes>
+	</test>
+
+	<test name="AdminInternal" preserve-order="true">
+		<classes>
+			<class name="api.AdminInternalTest.AdminInternal" />
+		</classes>
+	</test>
+
+	<test name="FseZoneMerchantCount" preserve-order="true">
+		<classes>
+			<class name="api.FseZoneMerchantCountTest.FseFSEExitAPICount" />
+		</classes>
+	</test>
+
+	<test name="ServiceMerchantAddressTest" preserve-order="true">
+		<classes>
+			<class name="api.ServiceMerchantAddressTest.ServiceMerchantAddress" />
+		</classes>
+	</test>
+	<test name="GetPgMidDatafromKYB" preserve-order="true">
+		<classes>
+			<class name="api.GetPgMidDatafromKYB.GetPgMidDatafromKYB" />
+		</classes>
+	</test>
+
+	<test name="PincodeDetailsTest" preserve-order="true">
+		<classes>
+			<class name="api.PincodeDetailsTest.PincodeDetails" />
+		</classes>
+	</test>
+
+	<test name="SkipOtpTest" preserve-order="true">
+		<classes>
+			<class name="api.SkipOtpTest.SkipOtp" />
+		</classes>
+	</test>
+
+	<test name="FSEZoneListV2Test" preserve-order="true">
+		<classes>
+			<class name="api.FSEZoneListV2Test.FSEZoneListV2" />
+		</classes>
+	</test>
+
+	<test name="SyncCustidWithAuth" preserve-order="true">
+		<classes>
+			<class name="api.SyncCustidWithAuth.SyncCustidWithAuth" />
+		</classes>
+	</test>
+	<test name="FseExitResignTest" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.FseExitResignTest" />
+		</classes>
+	</test>
+	<test name="ResignationData" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.ResignationData.ResignationDataVoluntary" />
+		</classes>
+	</test>
+
+	<test name="TMSBeatassign" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.TMSInventoryServiceBeat.TMSInventoryServiceBeat" />
+		</classes>
+	</test>
+
+	<test name="TMSLastAtive" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.TMSLastactive.TMSLastactive" />
+		</classes>
+	</test>
+
+	<test name="TMSCheckin" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.TMSCheckin.TMSCheckin" />
+		</classes>
+	</test>
+
+	<test name="Adminreportee" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.Adminreportee.Adminreportee" />
+		</classes>
+	</test>
+
+	<test name="FSEExitDetailsTest" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.FSEExitDetailsTest" />
+		</classes>
+	</test>
+
+	<test name="Pendancy" preserve-order="true">
+		<classes>
+			<class name="api.Pendancy.Pendancy" />
+		</classes>
+	</test>
+	<test name="ServiceFlowTLSelfAssign" preserve-order="true">
+		<classes>
+			<class name="api.ServiceFlowTLSelfAssign.ServiceFlowTLSelfAssign" />
+		</classes>
+	</test>
+
+	<test name="WorkingHours" preserve-order="true">
+		<classes>
+			<class name="api.WorkingHours.WorkingHours" />
+		</classes>
+	</test>
+
+	<test name="RescheduleBeat" preserve-order="true">
+		<classes>
+			<class name="api.RescheduleBeat.RescheduleBeat" />
+		</classes>
+	</test>
+
+	<test name="RejectReason" preserve-order="true">
+		<classes>
+			<class name="api.RejectReason.RejectReason" />
+		</classes>
+	</test>
+
+
+	<test name="V4FindMerchantTest" preserve-order="true">
+		<classes>
+			<class name="api.V4FindMerchantTest.V4FindMerchant" />
+		</classes>
+	</test>
+
+	<test name="CreditmateServiceBeatDetailTest" preserve-order="true">
+		<classes>
+			<class name="creditmate.CreditmateServiceBeatDetailTest.CreditmateServiceBeatDetail" />
+		</classes>
+	</test>
+	<test name="ExitManagement_pendingDues" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.PendingDues.PendingDues" />
+		</classes>
+	</test>
+	<test name="FEMSearchReportees" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.FEMSearchReportees.FEMSearchReportees" />
+		</classes>
+	</test>
+	<test name="ExitManagement_Seperation_Reason" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.seperationReason.seperationReason" />
+		</classes>
+	</test>
+	<test name="FSEExitHierarchy" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.FSEExitHierarchy.FSEExitHierarchy" />
+		</classes>
+	</test>
+
+	<test name="Create_CM_Beat" preserve-order="true">
+		<classes>
+			<class name="creditmate.CreateCreditmateServiceBeatTest.CreateCreditmateServiceBeat" />
+		</classes>
+	</test>
+
+	<test name="Close_CM_Beat" preserve-order="true">
+		<classes>
+			<class name="creditmate.CloseCMBeat.CloseBeat" />
+		</classes>
+	</test>
+
+	<test name="Total_CMCount" preserve-order="true">
+		<classes>
+			<class name="creditmate.TotalCount.TotalCount" />
+		</classes>
+	</test>
+
+	<test name="Merchant Details Without V2" preserve-order="true">
+		<classes>
+			<class name="api.MerchantDataWithoutV2.merchantDataWithoutV2" />
+		</classes>
+	</test>
+
+	<test name="Manpower Upload/Update" preserve-order="true">
+		<classes>
+			<class name="api.ManpowerUpload.ManpowerUpload" />
+		</classes>
+	</test>
+
+	<test name="Update_CM_Beat_Address" preserve-order="true">
+		<classes>
+			<class name="creditmate.CMBeatAddressUpdateTest.CMBeatAddressUpdate" />
+		</classes>
+	</test>
+
+	<test name="SearchCMBeat" preserve-order="true">
+		<classes>
+			<class name="creditmate.SearchCMBeatTest.SearchCMBeat" />
+		</classes>
+	</test>
+	<test name="FSE_EXIT_ABSCOND" preserve-order="true">
+		<classes>
+			<class name="ExitManagement.ResignAPI.ResignAbscond" />
+		</classes>
+	</test>
+
+	<test name="HierarchyGETReportingAPI" preserve-order="true">
+		<classes>
+			<class name="api.GetReporting.GetReporting" />
+		</classes>
+	</test>
+
+	<test name="ServiceBeatCreation" preserve-order="true">
+		<classes>
+			<class name="api.ServiceBeat.ServiceBeatTest" />
+		</classes>
+	</test>
+
+	<test name="DeactivatePrioritySalesBeat" preserve-order="true">
+		<classes>
+			<class name="api.DeactivatePrioritySalesBeat.deactivatePrioritySalesBeat" />
+		</classes>
+	</test>
+	<test name="GateMeetingImageView" preserve-order="true">
+		<classes>
+			<class name="api.GateMeetingImageView.gateMeetingImageView" />
+		</classes>
+	</test>
+	<test name="FSE and TL self Resign " preserve-order="true">
+		<classes>
+			<class name="ExitManagement.ResignAPI.ResignVoluntary" />
+		</classes>
+	</test>
+
+	<test name="FileUploadAPI" preserve-order="true">
+		<classes>
+			<class name="api.FileUpload.FileUpload" />
+		</classes>
+	</test>
+
+
+	<test name="CMSearchValuesTest" preserve-order="true">
+		<classes>
+			<class name="creditmate.CMSearchValuesTest.CMSearchValues" />
+			</classes>
+	</test>
+	<test name="Service beat details issue" preserve-order="true">
+		<classes>
+			<class name="api.ServiceBeatDetailsIssue.serviceBeatDetailsIssue" />
+		</classes>
+	</test>
+
+	<test name="Facing Issues for non admin" preserve-order="true">
+		<classes>
+			<class name="api.FacingIssuesNonAdminUpdated.facingIssuesNonAdminUpdated" />
+		</classes>
+	</test>
+
+	<test name="PII data removal" preserve-order="true">
+		<classes>
+			<class name="api.PIIRemovalVMNPageTest.PIIRemovalVMNPageTest" />
+		</classes>
+	</test>
+
+	<test name="Skill Set Create" preserve-order="true">
+		<classes>
+			<class name="api.SkillSetCreate.SkillSetCreate" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="utils.CustomizedEmailableReport" />
+		<listener class-name="com.paytm.framework.reporting.listeners.RPTestListener" />
+	</listeners>
+
+	<test name="FileUploadEntry" preserve-order="true">
+		<classes>
+			<class name="api.FileUploadEntry.fileUploadEntry" />
+		</classes>
+	</test>
+
+	<test name="ExistingTicket" preserve-order="true">
+		<classes>
+			<class name="api.ExistingTicket.existingTicket" />
+		</classes>
+	</test>
+	<test name="FSE_GetZoneList" preserve-order="true">
+		<classes>
+			<class name="api.GetZoneList.getZoneList" />
+		</classes>
+	</test>
+
+	<test name="V1Checkin" preserve-order="true">
+		<classes>
+			<class name="api.V1Checkin.V1CheckIn" />
+		</classes>
+	</test>
+
+	<test name="DesktopSearchTerritory" preserve-order="true">
+		<classes>
+			<class name="api.DesktopSearchTerritory.DesktopSearchTerritory" />
+		</classes>
+	</test>
+
+	<test name="DesktopTerritoryAssignUnassign" preserve-order="true">
+		<classes>
+			<class name="api.DesktopTerritoryAssignUnassign.DesktopTerritoryAssignUnassign" />
+		</classes>
+	</test>
+
+	<test name="RequestCount" preserve-order="true">
+		<classes>
+			<class name="api.RequestCount.RequestCount" />
+		</classes>
+	</test>
+
+	<test name="role" preserve-order="true">
+		<classes>
+			<class name="api.FseAdminRole.FseAdminRole" />
+		</classes>
+	</test>
+
+	<test name="roleDesignation" preserve-order="true">
+		<classes>
+			<class name="api.FseAdminRoleDesignation.FseAdminRoleDesignation" />
+		</classes>
+	</test>
+
+
+	<test name="CheckInDetails" preserve-order="true">
+		<classes>
+			<class name="api.CheckInDetails.CheckInDetails" />
+		</classes>
+	</test>
+
+	<test name="statusCheck" preserve-order="true">
+		<classes>
+			<class name="api.statusCheck.statusCheck" />
+
+
+		</classes>
+	</test>
+
+	<test name="AssignOrUnAssignZones" preserve-order="true">
+		<classes>
+			<class name="api.AssignOrUnassignZones.AssignOrUnassignZones" />
+		</classes>
+	</test>
+	<test name="Search Zoned" preserve-order="true">
+		<classes>
+			<class name="api.SearchZones.Search_Zones" />
+		</classes>
+	</test>
+
+
+	<test name="ServiceabilityAPI" preserve-order="true">
+		<classes>
+			<class name="api.ServiceabilityAPI.ServiceabilityAPI" />
+		</classes>
+	</test>
+
+
+	<test name="CheckServiceability" preserve-order="true">
+		<classes>
+			<class name="api.CheckServiceability.checkServiceability" />
+		</classes>
+	</test>
+
+	<test name="SalesPriorityBeat" preserve-order="true">
+		<classes>
+			<class name="api.SalesPriorityBeat.salesPriorityBeat" />
+		</classes>
+	</test>
+
+	<test name="FSEAutoAllocationBasedOnEligibility" preserve-order="true">
+		<classes>
+			<class name="api.FSEAutoAllocationBasedOnEligibility.FSEAutoAllocationBasedOnEligibility" />
+		</classes>
+	</test>
+
+	<test name="SaveFSECurrentLocation" preserve-order="true">
+		<classes>
+			<class name="api.SaveFSECurrentLocation.SaveFSECurrentLocation" />
+		</classes>
+	</test>
+
+
+	<test name="teamSearchZone" preserve-order="true">
+		<classes>
+			<class name="api.teamSearchZone.teamSearchZone" />
+		</classes>
+	</test>
+
+	<test name="DeviceBatteryDetails" preserve-order="true">
+		<classes>
+			<class name="api.DeviceBatteryDetails.DeviceBatteryDetails" />
+		</classes>
+	</test>
+
+	<test name="MerchantUncontactable" preserve-order="true">
+		<classes>
+			<class name="api.MerchantUncontactable.MerchantUncontactable" />
+		</classes>
+	</test>
+
+	<test name="MerchantOnboard" preserve-order="true">
+		<classes>
+			<class name="api.MerchantOnboard.OnboardingBeatCreation" />
+		</classes>
+	</test>
+
+	<test name="SearchSalesMerchant" preserve-order="true">
+		<classes>
+			<class name="api.SearchSalesMerchant.SalesSearchMerchant" />
+		</classes>
+	</test>
+
+	<test name="DIYOnboardingBeatCreation" preserve-order="true">
+		<classes>
+			<class name="api.DIYOnboardingBeatCreation.DIYOnboardingBeatCreationTest" />
+		</classes>
+	</test>
+
+	<test name="TMSBulkTaskCreation" preserve-order="true">
+		<classes>
+			<class name="api.TMSBulkTaskCreation.TMSBulkTaskCreation" />
+		</classes>
+	</test>
+
+	<test name="merchantInfo" preserve-order="true">
+		<classes>
+			<class name="api.MerchantInfo.MerchantInfo" />
+		</classes>
+	</test>
+	
+	<test name="FSM_Home_Api" preserve-order="true">
+		<classes>
+			<class name="api.FSE_HOME.Fsm_Home" />
+		</classes>
+	</test>
+
+	<test name="SearchZoneTest" preserve-order="true">
+		<classes>
+			<class name="api.SearchZoneTest.SearchZone" />
+		</classes>
+	</test>
+
+	<test name="MerchantCountTest" preserve-order="true">
+		<classes>
+			<class name="api.MerchantCountTest.MerchantCount" />
+		</classes>
+	</test>
+
+	<test name="UpdateCMBeatMetaDataTest" preserve-order="true">
+		<classes>
+			<class name="creditmate.UpdateCMBeatMetaDataTest.UpdateCMBeatMetaData" />
+		</classes>
+	</test>
+
+	<test name="AttendancePunchInTest" preserve-order="true">
+		<classes>
+			<class name="api.AttendancePunchInTest.AttendancePunchIn" />
+		</classes>
+	</test>
+
+	<test name="AttendancePunchOutTest" preserve-order="true">
+		<classes>
+			<class name="api.AttendancePunchOutTest.AttendancePunchOut" />
+		</classes>
+	</test>
+	<test name="GetRawOEEvents" preserve-order="true">
+		<classes>
+			<class name="api.GetRawOEEvents.GetRawOEEvents" />
+		</classes>
+	</test>
+	<test name="OlapData" preserve-order="true">
+		<classes>
+			<class name="api.GetOlap.GetOlap" />
+		</classes>
+	</test>
+	<test name="getallTagsandsol" preserve-order="true">
+		<classes>
+			<class name="api.getallTagsandsol.getallTagsandsol" />
+		</classes>
+	</test>
+
+	<test name="EDC_DIY" preserve-order="true">
+		<classes>
+			<class name="api.EDC_DIY.EDC_DIY" />
+		</classes>
+	</test>
+
+	<test name="AggregatorStatusAPI" preserve-order="true">
+		<classes>
+			<class name="api.aggregator.statusAPI" />
+		</classes>
+	</test>
+
+	<test name="Aggregator_profileDetailsAPI" preserve-order="true">
+		<classes>
+			<class name="api.aggregator.profileDetails" />
+		</classes>
+	</test>
+	<test name="TMS_Compitator_Merchant" preserve-order="true">
+		<classes>
+			<class name="TMS.Compitator.CompitatorCount" />
+		</classes>
+	</test>
+
+	<test name="TelephonyCall" preserve-order="true">
+		<classes>
+			<class name="creditmate.TelephonyCall.TelephonyCall" />
+		</classes>
+	</test>
+
+	<test name="MerchantMetaData" preserve-order="true">
+		<classes>
+			<class name="api.MerchnatMetaData.MerchantMetaData" />
+		</classes>
+	</test>
+
+	<test name="ADASTeamSummary" preserve-order="true">
+		<classes>
+			<class name="api.ADASTeamSummary.ADASTeamSummary" />
+		</classes>
+	</test>
+
+
+	<test name="PriorityZoneFiveChar" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.PriorityZoneFiveChar.PriorityZoneFiveChar" />
+	</classes>
+	</test>
+
+	<test name="SkillSetUpdate" preserve-order="true">
+		<classes>
+			<class name="api.SkillSetUpdate.SkillSetUpdate" />
+		</classes>
+	</test>
+
+	<test name="SkillSetGet" preserve-order="true">
+		<classes>
+			<class name="api.SkillSetGet.SkillSetGet" />
+		</classes>
+	</test>
+
+	<test name="AssignSkill" preserve-order="true">
+		<classes>
+			<class name="api.AssignSkillsTest.AssignSkills" />
+		</classes>
+	</test>
+
+	<test name="RescheduleTmsTask" preserve-order="true">
+		<classes>
+			<class name="api.RescheduleTMSTaskTest.RescheduleTMSTask" />
+		</classes>
+	</test>
+
+	<test name="SkillSetDelete" preserve-order="true">
+		<classes>
+			<class name="api.SkillSetDelete.SkillSetDelete" />
+		</classes>
+	</test>
+
+	<test name="GetZones" preserve-order="true">
+		<classes>
+			<class name="api.GetZones.GetZones" />
+		</classes>
+	</test>
+
+
+	<test name="Aggregator_adminListAPI" preserve-order="true">
+		<classes>
+			<class name="api.aggregator.fseAdminList" />
+		</classes>
+	</test>
+
+	<test name="FastTrackServiceBeat" preserve-order="true">
+		<classes>
+			<class name="api.FastTrackServiceBeat.FastTrackBeatCreationTest" />
+		</classes>
+	</test>
+
+	<test name="CpvBeatCreation" preserve-order="true">
+		<classes>
+			<class name="api.CpvBeatCreation.CPVBeatCreation" />
+		</classes>
+	</test>
+
+	<test name="IciciServiceBeat" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.IciciServiceBeat.IciciServiceBeat" />
+		</classes>
+	</test>
+
+
+	<test name="TaskFilter" preserve-order="true">
+		<classes>
+			<class name="api.TaskFilter.TaskFilter" />
+		</classes>
+	</test>
+
+	<test name="ZoneImage" preserve-order="true">
+		<classes>
+			<class name="api.ZoneImage.ZoneImage" />
+		</classes>
+	</test>
+
+	<test name="AgentDetails" preserve-order="true">
+		<classes>
+			<class name="api.AgentDetails.AgentDetails" />
+		</classes>
+	</test>
+	<test name="TaskDetails" preserve-order="true">
+		<classes>
+			<class name="api.TaskDetails.TaskDetails" />
+		</classes>
+	</test>
+
+
+	<test name="V3ZoneList" preserve-order="true">
+		<classes>
+			<class name="api.V3ZoneList.V3ZoneList" />
+		</classes>
+	</test>
+
+
+	<test name="FetchV2Filters" preserve-order="true">
+		<classes>
+			<class name="api.FetchV2Filters.FetchV2Filters" />
+		</classes>
+	</test>
+
+	<test name="GetVisitingCard" preserve-order="true">
+		<classes>
+			<class name="api.GetVisitingCard.VisitingCard" />
+		</classes>
+	</test>
+
+	<test name="V2FindMerchantDataTest" preserve-order="true">
+		<classes>
+			<class name="api.V2FindMerchantDataTest.V2FindMerchantData" />
+		</classes>
+	</test>
+
+	<test name="TargetUpload" preserve-order="true">
+		<classes>
+			<class name="api.TargetUpload.TargetUpload" />
+		</classes>
+	</test>
+
+
+	<test name="V4ServiceFilter" preserve-order="true">
+		<classes>
+			<class name="api.V4ServiceFilter.V4ServiceFilter" />
+		</classes>
+	</test>
+
+
+	<test name="GetMerchantMobile" preserve-order="true">
+		<classes>
+			<class name="api.GetMerchantMobile.GetMerchantMobile" />
+		</classes>
+	</test>
+
+	<test name="V5findMerchant" preserve-order="true">
+		<classes>
+			<class name="api.V5findMerchant.V5findMerchant" />
+		</classes>
+	</test>
+
+	<test name="GetOpenTags" preserve-order="true">
+		<classes>
+			<class name="api.GetOpenTagsTest.GetOpenTags" />
+		</classes>
+	</test>
+	<test name="V1TeamFilters" preserve-order="true">
+		<classes>
+			<class name="api.V1TeamFilters.V1TeamFilters" />
+		</classes>
+	</test>
+	<test name="TeamPerformance" preserve-order="true">
+		<classes>
+			<class name="api.TeamPerformance.TeamPerformance" />
+		</classes>
+	</test>
+
+
+	<test name="V3ServiceBeats" preserve-order="true">
+		<classes>
+			<class name="api.V3ServiceBeats.V3ServiceBeats" />
+		</classes>
+	</test>
+
+
+	<test name="Whereabouts" preserve-order="true">
+		<classes>
+			<class name="api.Whereabouts.Whereabouts" />
+		</classes>
+	</test>
+
+	<test name="PriorityZoneSixChar" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.PriorityZoneSixChar.PriorityZoneSixChar" />
+		</classes>
+	</test>
+
+	<test name="leaveManagementRequest" preserve-order="true">
+		<classes>
+			<class name="api.leaveManagementRequest.leaveManagementRequest" />
+		</classes>
+	</test>
+
+
+	<test name="AdminDesignation" preserve-order="true">
+		<classes>
+			<class name="api.AdminDesignation.AdminDesignation" />
+		</classes>
+	</test>
+
+	<test name="V2CustId" preserve-order="true">
+		<classes>
+			<class name="api.V2CustId.V2CustId" />
+		</classes>
+	</test>
+
+	<test name="DelegateAssignUnassign" preserve-order="true">
+		<classes>
+			<class name="api.DelegateAssignUnassign.DelegateAssign" />
+		</classes>
+	</test>
+
+
+	<test name="fseUnassigned" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.fseUnassigned.fseUnassigned" />
+		</classes>
+	</test>
+
+
+	<test name="FSETeam" preserve-order="true">
+		<classes>
+			<class name="api.FSETeam.FSETeam" />
+		</classes>
+	</test>
+
+	<test name="AttendanceValidateCheckout" preserve-order="true">
+		<classes>
+			<class name="api.AttendanceValidateCheckout.AttendanceValidateCheckout" />
+		</classes>
+	</test>
+
+	<test name="FileType" preserve-order="true">
+		<classes>
+			<class name="api.FileType.FileType" />
+		</classes>
+	</test>
+
+	<test name="Uploadimage" preserve-order="true">
+		<classes>
+			<class name="api.Uploadimage.Uploadimage" />
+		</classes>
+	</test>
+
+	<test name="V4SearchMerchant" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.V4SearchMerchant.V4SearchMerchant" />
+		</classes>
+	</test>
+
+	<test name="FetchDetailCIF" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.FetchDetailCIF.FetchDetailCIF" />
+		</classes>
+	</test>
+
+	<test name="FseDetailOE" preserve-order="true">
+		<classes>
+			<class name="com.paytm.api.FSMApi.FseDetailOE.FseDetailOE" />
+		</classes>
+	</test>
+
+	<test name="FSEIDCardTemplateTest" preserve-order="true">
+		<classes>
+			<class name="api.FSEIDCardTemplateTest.FSEIDCardTemplate" />
+		</classes>
+	</test>
+	<test name="TMSReallocationTask" preserve-order="true">
+		<classes>
+			<class name="api.TMSReallocationTask.TMSReallocationTask" />
+		</classes>
+	</test>
+
+	<test name="FileSample" preserve-order="true">
+		<classes>
+			<class name="api.FileSample.FileSample" />
+		</classes>
+	</test>
+
+	<test name="CheckinRequestApprovalAPI" preserve-order="true">
+		<classes>
+			<class name="api.CheckinRequestApprovalList.CheckinRequestApprovalAPI" />
+		</classes>
+	</test>
+
+	<test name="CheckinApprovalRequestListAPI" preserve-order="true">
+		<classes>
+			<class name="api.CheckinRequestApprovalList.CheckinApprovalRequestListAPI" />
+		</classes>
+	</test>
+
+	<test name="TMSTaskUpdateTest" preserve-order="true">
+		<classes>
+			<class name="api.TMSTaskUpdateTest.TMSTaskUpdate" />
+		</classes>
+	</test>
+
+	<test name="MerchantMhdTicket" preserve-order="true">
+		<classes>
+			<class name="api.MerchantMhdTicket.MerchantMhdTicket" />
+		</classes>
+	</test>
+
+	</suite>
